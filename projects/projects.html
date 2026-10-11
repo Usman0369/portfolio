@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects by Usman Rabbani - web development, database design, and C++ applications." />
+  <title>Projects | Usman Rabbani</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="projects.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="../index/index.html" class="logo">
+        <span class="logo__mark">UR</span>
+        Usman Rabbani<span class="logo__dot">.</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav__list" id="nav-menu">
+          <li><a class="nav__link" data-page href="../index/index.html">Home</a></li>
+          <li><a class="nav__link" data-page href="../about/about.html">About</a></li>
+          <li><a class="nav__link" data-page href="../skills/skills.html">Skills</a></li>
+          <li><a class="nav__link" data-page href="../projects/projects.html">Projects</a></li>
+          <li><a class="nav__link" data-page href="../contact/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav__actions">
+        <a href="../contact/contact.html" class="btn btn--primary">Let's Talk</a>
+        <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== PAGE HERO ===================== -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Projects</span>
+        <h1 class="section-title">Work I'm proud of</h1>
+        <p class="section-sub">
+          A collection of projects I've built while learning and refining my craft.
+          Filter by category to explore.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section" style="padding-top: 1rem;">
+      <div class="container">
+
+        <!-- Filter buttons -->
+        <div class="filters" role="group" aria-label="Filter projects by category">
+          <button class="filter-btn is-active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+        </div>
+
+        <div class="grid grid--3">
+          <!-- Project 1 -->
+          <article class="project reveal" data-category="web">
+            <div class="project__media">
+              <img src="../images/bakery%20website.jpeg" alt="Bakery website landing page" width="800" height="500" />
+            </div>
+            <div class="project__body">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <h3 class="project__title">Bakery Website</h3>
+              <p class="project__text">
+                A warm, responsive landing page for a bakery featuring a hero section,
+                product highlights, and a clean layout designed to showcase fresh goods.
+              </p>
+              <div class="project__links">
+                <a class="link-arrow" href="https://github.com/Usman0369" target="_blank" rel="noopener" aria-label="View Bakery Website on GitHub">View on GitHub &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project reveal" data-category="web">
+            <div class="project__media">
+              <img src="../images/coffee%20wedsite.jpeg" alt="Coffee shop website landing page" width="800" height="500" />
+            </div>
+            <div class="project__body">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <h3 class="project__title">Coffee Shop Website</h3>
+              <p class="project__text">
+                A modern coffee shop website with an inviting hero, menu section, and
+                responsive design that keeps the browsing experience smooth on any screen.
+              </p>
+              <div class="project__links">
+                <a class="link-arrow" href="https://github.com/Usman0369" target="_blank" rel="noopener" aria-label="View Coffee Shop Website on GitHub">View on GitHub &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project reveal" data-category="web">
+            <div class="project__media">
+              <img src="../images/turmeric%20restaurant.jpeg" alt="Turmeric restaurant website landing page" width="800" height="500" />
+            </div>
+            <div class="project__body">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <h3 class="project__title">Turmeric Restaurant</h3>
+              <p class="project__text">
+                A flavourful restaurant website showcasing signature dishes and a bold
+                visual identity, built with a responsive, easy-to-navigate layout.
+              </p>
+              <div class="project__links">
+                <a class="link-arrow" href="https://github.com/Usman0369" target="_blank" rel="noopener" aria-label="View Turmeric Restaurant on GitHub">View on GitHub &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project reveal" data-category="web">
+            <div class="project__media">
+              <img src="../images/A%20night%20in%20lahore.jpeg" alt="A Night in Lahore photo gallery website" width="800" height="500" />
+            </div>
+            <div class="project__body">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Design</span>
+              </div>
+              <h3 class="project__title">A Night in Lahore</h3>
+              <p class="project__text">
+                A visual, gallery-style website capturing the mood of Lahore at night
+                through atmospheric imagery and an immersive, image-first layout.
+              </p>
+              <div class="project__links">
+                <a class="link-arrow" href="https://github.com/Usman0369" target="_blank" rel="noopener" aria-label="View A Night in Lahore on GitHub">View on GitHub &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="cta reveal">
+          <h2 class="cta__title">Like what you see? Let's build the next one together.</h2>
+          <p class="cta__text">Tell me about your project and I'll get back to you.</p>
+          <div class="cta__actions">
+            <a href="../contact/contact.html" class="btn btn--light">Start a Project</a>
+            <a href="../index/index.html" class="btn btn--outline">Back Home</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index/index.html" class="logo">
+            <span class="logo__mark">UR</span>
+            Usman Rabbani<span class="logo__dot">.</span>
+          </a>
+          <p>Software engineer and web developer building clean, responsive software and applications.</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <div class="footer-links">
+            <a href="../index/index.html">Home</a>
+            <a href="../about/about.html">About</a>
+            <a href="../skills/skills.html">Skills</a>
+            <a href="../projects/projects.html">Projects</a>
+            <a href="../contact/contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Get in touch</h4>
+          <div class="footer-links">
+            <a href="mailto:usmanrabbani021@gmail.com">usmanrabbani021@gmail.com</a>
+            <a href="https://github.com/Usman0369" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/usman-rabbani-215682343" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Usman Rabbani. All rights reserved.</span>
+        <span>Designed &amp; built with HTML, CSS &amp; JavaScript.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
